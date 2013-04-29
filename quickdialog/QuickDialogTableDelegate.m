@@ -116,7 +116,7 @@
                                               constrainedToSize:maximumLabelSize
                                                   lineBreakMode:UILineBreakModeWordWrap];
 
-        stringFooterHeight = expectedLabelSize.height+5;
+        stringFooterHeight = expectedLabelSize.height+20;
     }
 
     return section.footer != NULL? stringFooterHeight : 0;
